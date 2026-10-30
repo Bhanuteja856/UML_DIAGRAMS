@@ -1,0 +1,193 @@
+<mxfile host="Electron" agent="ChatGPT">
+  <diagram id="railway-component" name="Railway Reservation Component Diagram">
+    <mxGraphModel dx="1577" dy="1379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="border" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#222222;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="950" width="1540" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontStyle=1;fontSize=21;align=center;verticalAlign=middle;" value="Component Diagram – Railway Reservation System – Shows major software components and their dependencies" vertex="1">
+          <mxGeometry height="46" width="1260" x="145" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="client" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="Web / Mobile&lt;br&gt;Application&lt;br&gt;(Client)" vertex="1">
+          <mxGeometry height="115" width="240" x="65" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="app" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="Application Server&lt;br&gt;(UI Controller)" vertex="1">
+          <mxGeometry height="115" width="270" x="560" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="auth" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="Authentication&lt;br&gt;Service" vertex="1">
+          <mxGeometry height="110" width="220" x="1115" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="user" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="User Management&lt;br&gt;Component" vertex="1">
+          <mxGeometry height="110" width="240" x="1100" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="train" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="Train Service&lt;br&gt;Component" vertex="1">
+          <mxGeometry height="110" width="230" x="110" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="booking" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="Booking Service&lt;br&gt;Component" vertex="1">
+          <mxGeometry height="110" width="240" x="450" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="payment" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="Payment Service&lt;br&gt;Component" vertex="1">
+          <mxGeometry height="110" width="250" x="805" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="Payment Gateway&lt;br&gt;Component" vertex="1">
+          <mxGeometry height="110" width="225" x="810" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="external" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="External Payment&lt;br&gt;System&lt;br&gt;(Bank / UPI / Card Provider)" vertex="1">
+          <mxGeometry height="130" width="270" x="1260" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="traindb" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontSize=15;align=center;verticalAlign=middle;" value="Train Database&lt;br&gt;(DB)" vertex="1">
+          <mxGeometry height="125" width="190" x="100" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="reservationdb" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontSize=15;align=center;verticalAlign=middle;" value="Reservation Database&lt;br&gt;(DB)" vertex="1">
+          <mxGeometry height="125" width="205" x="445" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="userdb" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontSize=15;align=center;verticalAlign=middle;" value="User Database&lt;br&gt;(DB)" vertex="1">
+          <mxGeometry height="125" width="130" x="1400" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="ui_api" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="410" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="label_ui_api" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;align=left;verticalAlign=middle;" value="&lt;&lt;interface&gt;&gt;&lt;br&gt;User Interface" vertex="1">
+          <mxGeometry height="52" width="210" x="320" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="auth_api" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="950" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="label_auth_api" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;align=left;verticalAlign=middle;" value="&lt;&lt;interface&gt;&gt;&lt;br&gt;Authentication API" vertex="1">
+          <mxGeometry height="52" width="210" x="860" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="user_data" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="1185" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="label_user_data" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;align=left;verticalAlign=middle;" value="&lt;&lt;interface&gt;&gt;&lt;br&gt;User Data Access" vertex="1">
+          <mxGeometry height="55" width="190" x="1220" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="train_api" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="200" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="label_train_api" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;align=left;verticalAlign=middle;" value="&lt;&lt;interface&gt;&gt;&lt;br&gt;Train Search API" vertex="1">
+          <mxGeometry height="55" width="205" x="235" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="booking_api" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="540" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="label_booking_api" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;align=left;verticalAlign=middle;" value="&lt;&lt;interface&gt;&gt;&lt;br&gt;Booking API" vertex="1">
+          <mxGeometry height="55" width="205" x="575" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="payment_api" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="885" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="label_payment_api" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;align=left;verticalAlign=middle;" value="&lt;&lt;interface&gt;&gt;&lt;br&gt;Payment API" vertex="1">
+          <mxGeometry height="55" width="205" x="920" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="train_data" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="175" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="label_train_data" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;align=left;verticalAlign=middle;" value="&lt;&lt;interface&gt;&gt;&lt;br&gt;Train Data Access" vertex="1">
+          <mxGeometry height="55" width="240" x="210" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="reservation_data" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="540" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="label_reservation_data" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;align=left;verticalAlign=middle;" value="&lt;&lt;interface&gt;&gt;&lt;br&gt;Reservation Data Access" vertex="1">
+          <mxGeometry height="55" width="240" x="575" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway_api" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="885" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="label_gateway_api" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;align=left;verticalAlign=middle;" value="&lt;&lt;interface&gt;&gt;&lt;br&gt;Payment Gateway API" vertex="1">
+          <mxGeometry height="55" width="240" x="920" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="external_api" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="1115" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="label_external_api" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;align=left;verticalAlign=middle;" value="&lt;&lt;interface&gt;&gt;&lt;br&gt;External Payment API" vertex="1">
+          <mxGeometry height="55" width="230" x="1000" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="e_client_app" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="197" as="sourcePoint" />
+            <mxPoint x="560" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_app_auth" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="197" as="sourcePoint" />
+            <mxPoint x="1115" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_app_down" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="250" as="sourcePoint" />
+            <mxPoint x="695" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_branch_h" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="430" as="sourcePoint" />
+            <mxPoint x="895" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_branch_train" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="430" as="sourcePoint" />
+            <mxPoint x="210" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_branch_booking" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="552" y="430" as="sourcePoint" />
+            <mxPoint x="552" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_branch_payment" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="430" as="sourcePoint" />
+            <mxPoint x="895" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_auth_user" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1225" y="247" as="sourcePoint" />
+            <mxPoint x="1225" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_user_db" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="450" as="sourcePoint" />
+            <mxPoint x="1400" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_train_db" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="670" as="sourcePoint" />
+            <mxPoint x="225" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_booking_db" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="670" as="sourcePoint" />
+            <mxPoint x="570" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_payment_gateway" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="670" as="sourcePoint" />
+            <mxPoint x="930" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_gateway_external" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#111111;strokeWidth=1.8;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="870" as="sourcePoint" />
+            <mxPoint x="1260" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl4JmW5ZldX4M6O-fCVT-1" edge="1" parent="1" source="border" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="border">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2026-10-29T17:20:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram id="railway-deployment-artifacts" name="Deployment Diagram">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="page_border" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#222222;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="8" y="8" width="1540" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Deployment Diagram – Railway Reservation System – Shows how the system is deployed across devices and servers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontStyle=1;fontSize=21;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="88" y="22" width="1430" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="passenger_node" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Passenger Device&lt;/b&gt;&lt;br&gt;(Laptop / Mobile)" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontSize=16;align=center;verticalAlign=top;spacingTop=18;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="330" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="web_node" value="&amp;lt;&amp;lt;server&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Web Server&lt;/b&gt;" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontSize=16;align=center;verticalAlign=top;spacingTop=18;" vertex="1" parent="1">
+          <mxGeometry x="555" y="140" width="350" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="app_node" value="&amp;lt;&amp;lt;server&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Application Server&lt;/b&gt;" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontSize=16;align=center;verticalAlign=top;spacingTop=18;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="125" width="465" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="db_node" value="&amp;lt;&amp;lt;server&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Database Server&lt;/b&gt;" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontSize=16;align=center;verticalAlign=top;spacingTop=18;" vertex="1" parent="1">
+          <mxGeometry x="540" y="650" width="520" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="payment_node" value="&amp;lt;&amp;lt;external system&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Payment Gateway Server&lt;/b&gt;" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=2;fontSize=16;align=center;verticalAlign=top;spacingTop=18;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="650" width="350" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="browser_artifact" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Web Browser&lt;/b&gt;&lt;br&gt;browser.exe" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="260" width="255" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile_artifact" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Mobile Application&lt;/b&gt;&lt;br&gt;railway-app.apk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="345" width="255" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="webapp_artifact" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Web Application&lt;/b&gt;&lt;br&gt;railway-web.war" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="590" y="250" width="280" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="static_artifact" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Static Resources&lt;/b&gt;&lt;br&gt;index.html · styles.css · app.js" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="590" y="335" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="auth_artifact" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Authentication Service&lt;/b&gt;&lt;br&gt;authentication-service.jar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="215" width="340" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="train_artifact" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Train Service&lt;/b&gt;&lt;br&gt;train-service.jar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="278" width="340" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="booking_artifact" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Booking Service&lt;/b&gt;&lt;br&gt;booking-service.jar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="341" width="340" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="pay_artifact" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Payment Service&lt;/b&gt;&lt;br&gt;payment-service.jar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="404" width="340" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="user_artifact" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;User Management Service&lt;/b&gt;&lt;br&gt;user-management-service.jar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="467" width="340" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="user_db" value="User DB&lt;br&gt;&lt;i&gt;users&lt;/i&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.7;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="575" y="750" width="130" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="train_db" value="Train DB&lt;br&gt;&lt;i&gt;trains, schedules&lt;/i&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.7;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="725" y="750" width="145" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="reservation_db" value="Reservation DB&lt;br&gt;&lt;i&gt;bookings, seats&lt;/i&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.7;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="890" y="750" width="145" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="db_artifact_note" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt; schema.sql&lt;br&gt;Database schemas &amp;amp; tables" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="660" y="855" width="285" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="payment_provider_artifact" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Bank / UPI / Card Provider&lt;/b&gt;&lt;br&gt;payment-gateway-adapter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="765" width="270" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="https_client_web" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;html=1;strokeColor=#111111;strokeWidth=1.8;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="555" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="https_web_app" value="HTTPS / REST API" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;html=1;strokeColor=#111111;strokeWidth=1.8;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="290" as="sourcePoint" />
+            <mxPoint x="1060" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="app_db_conn" value="JDBC / DB Connection" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;html=1;strokeColor=#111111;strokeWidth=1.8;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="545" as="sourcePoint" />
+            <mxPoint x="800" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="app_payment_conn" value="HTTPS / Payment API" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;html=1;strokeColor=#111111;strokeWidth=1.8;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="545" as="sourcePoint" />
+            <mxPoint x="1350" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="artifact_note" value="Artifacts are deployable software files or resources placed inside each deployment node." style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;fontStyle=2;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="65" y="875" width="420" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
